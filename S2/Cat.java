@@ -68,7 +68,7 @@ public class Cat {
 
     public void ObWeHaveHunger(){
         System.out.print(getOfficialNameTitle() + " ");
-        if(weHaveHunger) System.out.println("Голодный!");
+        if(weHaveHunger) System.out.println("Голодный и злой!");
         else System.out.println("Сытый и довольный!");
     }
 

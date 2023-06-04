@@ -27,11 +27,22 @@ public class DZ {
             catElement.eat(plate);
         }
 
+        
+        System.out.println("\nПроверяем сытость котов\n");        
+        for (Cat catElement : cats) {
+            catElement.ObWeHaveHunger();
+        }
+        
         System.out.println("\nДобавляем еды в тарелку, еще 100 штук\n");
         plate.addFood(100);
 
         for (Cat catElement : cats) {
             catElement.eat(plate);
+        }
+
+        System.out.println("\nПроверяем сытость котов\n");        
+        for (Cat catElement : cats) {
+            catElement.ObWeHaveHunger();
         }
 
   
