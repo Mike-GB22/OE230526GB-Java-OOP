@@ -1,6 +1,6 @@
-package ru.geekbrains.lesson1.sample;
+package S1.sample;
 
-import ru.geekbrains.lesson1.Product;
+//import S1;
 
 public class Program {
 
