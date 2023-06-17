@@ -1,8 +1,8 @@
-package S1.sample;
+package ru.geekbrains.lesson1.sample;
 
-//import S1;
+import ru.geekbrains.lesson1.Product;
 
-public class ProgramProduct {
+public class Program {
 
     public static void main(String[] args) {
         Product product1 = new Product();
